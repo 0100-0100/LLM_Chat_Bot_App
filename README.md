@@ -48,5 +48,13 @@ You can now run the project locally by running the ./run.sh script or running th
 chainlit run ___/app.py -w
 ```
 
+## Environment of the implementation
+- OS: Ubuntu 24.04 LTS
+- Python 3.12.3
+- pip 24.0
+- ipdb 0.13.13
+- chainlit 1.1.404
+- ctransformers 0.2.27
+
 ## Addendum
 Many improvements can be added to the whole project but is intended to be a base for new projects that need to have chatbot like interactions with the user.

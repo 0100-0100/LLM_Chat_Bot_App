@@ -7,7 +7,7 @@ On this course we understood a minimal python stack for creating a chatbot with 
 ![UI_Screenshot](https://github.com/0100-0100/LLM_Chat_Bot_App/blob/main/static/img/Example.PNG "UI Screenshot")
 
 ## Basic Actions.
-You can write on the message input on of the following commands
+You can write on the message input on of the following commands.
 ### Model Selection
 | Chat Command | Description                                                                                                                                            |
 | :----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -31,7 +31,7 @@ Use *llama3* will attempt to use the SanctumAI Llama 3.1 8B model but in all the
 | show history      | Show the current session's chat memory  |
 
 ## Installation:
-### Install by running the ./install script or running the following commands:
+Install by running the ./install.sh script or running the following commands:
 ```bash
 python3 -m venv .venv
 if [ $? -ne 0 ]; then
@@ -43,9 +43,10 @@ pip3 install -r requirements.txt
 ```
 
 ## Executing project:
-### Run the project locally by running the ./run.sh script or running the command:
+You can now run the project locally by running the ./run.sh script or running the command:
 ```bash
 chainlit run ___/app.py -w
 ```
 
+## Addendum
 Many improvements can be added to the whole project but is intended to be a base for new projects that need to have chatbot like interactions with the user.

@@ -1,17 +1,27 @@
 # LLM_Chat_Bot_App
 This repository is the final project for the Udemy Course: The Local LLM Crash Course - Build an AI Chatbot in 2 hours!
 
-On this course we understood a minimal python stack for creating a chatbot with the use of hugging face's text models and chainlit a Python framework for the web application front-end for conversation interactions with an LLM similar to OpenAI's UI for ChatGPT.
+On this course we understood a minimal python stack for creating a chatbot with the use of hugging face's text models and chainlit a Python framework for the web application front-end for conversation interactions with an LLM similar to OpenAI's UI for ChatGPT locally.
+
+### Screenshot of the application's UI running locally.
+![UI_Screenshot](https://github.com/0100-0100/LLM_Chat_Bot_App/blob/main/static/img/Example.PNG "UI Screenshot")
 
 ### Installation:
+#### Install by running the ./install script or running the following commands:
 ```bash
-./install.sh
+python3 -m venv .venv
+if [ $? -ne 0 ]; then
+    echo 'Error while creating virtual environment with python3 -m venv .venv'
+    exit
+fi
+source .venv/bin/activate
+pip3 install -r requirements.txt
 ```
 
 ### Executing project:
+#### Run the project locally by running the ./run.sh script or running the command:
 ```bash
-./run.sh
+chainlit run ___/app.py -w
 ```
 
-## Example of the application's UI
-![UI_Screenshot](https://github.com/0100-0100/LLM_Chat_Bot_App/blob/main/static/img/Example.PNG "UI Screenshot")
+Many improvements can be added to the whole project but is intended to be a base for new projects that need to have chatbot like interactions with the user.

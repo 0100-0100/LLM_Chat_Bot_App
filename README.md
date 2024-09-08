@@ -12,3 +12,6 @@ On this course we understood a minimal python stack for creating a chatbot with 
 ```bash
 ./run.sh
 ```
+
+## Example of the application's UI
+![UI_Screenshot](https://github.com/0100-0100/LLM_Chat_Bot_App/blob/main/static/img/Example.PNG "UI Screenshot")

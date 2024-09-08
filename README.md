@@ -10,7 +10,7 @@ On this course we understood a minimal python stack for creating a chatbot with 
 You can write on the message input on of the following commands
 #### Model Selection
 | Chat Command | Description                                                                                                                                             |
-|:------------:+---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :----------: + ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | use orca     | Use the model [zoltanctoth/orca_mini_3B-GGUF] (https://huggingface.co/zoltanctoth/orca_mini_3B-GGUF "Hugging Face Orca 3B Model.")                      |
 | use llama2   | Use the model [TheBloke/Llama-2-7B-Chat-GGUF] (https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF "Hugging Face Llama 2 7B.")                         |
 | ~use llama3~ | Use the model [SanctumAI/Meta-Llama-3.1-8B-Instruct-GGUF] (https://huggingface.co/SanctumAI/Meta-Llama-3.1-8B-Instruct-GGUF "Hugging Face Llama 2 7B.") |
@@ -18,7 +18,7 @@ You can write on the message input on of the following commands
 
 #### Extra Actions
 | Chat Command      | Description                             |
-|:-----------------:+-----------------------------------------|
+| :---------------: + --------------------------------------- |
 | forget everything | Reset the current session's chat memory |
 | show history      | Show the current session's chat memory  |
 

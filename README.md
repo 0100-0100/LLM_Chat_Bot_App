@@ -16,11 +16,14 @@ You can write on the message input on of the following commands
 | ~use llama3~ | Use the model [SanctumAI/Meta-Llama-3.1-8B-Instruct-GGUF](https://huggingface.co/SanctumAI/Meta-Llama-3.1-8B-Instruct-GGUF "Hugging Face Llama 2 7B.") |
 
 By default on first run the program will attempt the download of the model Orca Mini 3B GGUF if it is not already on cache and use the cached version on sub sequent runs.
+
 Executing any of the commands above on the chat will change the LLM used for the current session.
 
 Use *llama3* will attempt to use the SanctumAI Llama 3.1 8B model but in all the testing I did I was unable to run this project with the use of this las model.
-**I tried my best to use Llama 3.1 but was unable to make it run with ctransformers on my local compputer :c**
+*I tried my best to use Llama 3.1 but was unable to make it run with ctransformers on my local compputer :c*
+
 ---
+
 ### Extra Actions
 | Chat Command      | Description                             |
 | :---------------: | --------------------------------------- |
